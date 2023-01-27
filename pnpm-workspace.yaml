@@ -1,5 +1,0 @@
-packages:
-  - "packages/*"
-  - "apps/dev/*"
-  - "apps/playgrounds/*"
-  - "docs"
