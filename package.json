@@ -28,12 +28,19 @@
   ],
   "exports": {
     ".": "./index.js",
+    "./adapters": {
+      "types": "./adapters.d.ts"
+    },
     "./jwt": "./jwt/index.js",
     "./react": "./react/index.js",
     "./core": "./core/index.js",
     "./next": "./next/index.js",
     "./middleware": "./middleware.js",
     "./client/_utils": "./client/_utils.js",
+    "./providers": {
+      "types": "./providers.d.ts",
+      "default": "./providers/index.js"
+    },
     "./providers/*": "./providers/*.js"
   },
   "files": [
