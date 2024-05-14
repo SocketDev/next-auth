@@ -26,16 +26,6 @@
     "oidc",
     "nextauth"
   ],
-  "exports": {
-    ".": "./index.js",
-    "./jwt": "./jwt/index.js",
-    "./react": "./react/index.js",
-    "./core": "./core/index.js",
-    "./next": "./next/index.js",
-    "./middleware": "./middleware.js",
-    "./client/_utils": "./client/_utils.js",
-    "./providers/*": "./providers/*.js"
-  },
   "files": [
     "lib",
     "css",
